@@ -1343,6 +1343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be0eb06a75a96944795e55516d636c71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fltLoadDelay: 1
 --- !u!61 &569419403
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1880,7 +1881,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0.5
-  m_AngularDrag: 1
+  m_AngularDrag: 10
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -1992,7 +1993,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94add0c3d9c509c40bf1ba908273c5f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fltTorqueAmount: 15
+  fltTorqueAmount: 5
 --- !u!114 &1139748330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2005,6 +2006,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51bb53980990c6247bf20149f635af4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fltLoadDelay: 0.5
 --- !u!1 &2022452815
 GameObject:
   m_ObjectHideFlags: 0
