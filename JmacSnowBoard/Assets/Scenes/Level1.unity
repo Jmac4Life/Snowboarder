@@ -14080,7 +14080,7 @@ GameObject:
   - component: {fileID: 1542117801}
   - component: {fileID: 1542117800}
   m_Layer: 0
-  m_Name: Snow-Tree-1
+  m_Name: Snow-Tree-
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
