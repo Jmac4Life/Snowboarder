@@ -8829,7 +8829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51bb53980990c6247bf20149f635af4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fltLoadDelay: 0.5
+  fltLoadDelay: 1
   crashEffect: {fileID: 987476351}
   crashFSX: {fileID: 8300000, guid: c2c04b09a47cfed4e95ec24b78e6b275, type: 3}
 --- !u!114 &1139748331
