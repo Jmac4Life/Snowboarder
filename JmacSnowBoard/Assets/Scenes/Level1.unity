@@ -1344,6 +1344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fltLoadDelay: 1
+  finishEffect: {fileID: 1346791648}
 --- !u!61 &569419403
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1398,7 +1399,7 @@ Transform:
   m_GameObject: {fileID: 569419401}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 143.03, y: -6.62, z: -23.530663}
+  m_LocalPosition: {x: 143.03, y: -6.62, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1705,7 +1706,7 @@ Transform:
   m_GameObject: {fileID: 857385591}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.02, y: 6, z: 23.530663}
+  m_LocalPosition: {x: 0.02, y: 6, z: 0}
   m_LocalScale: {x: 1.8434, y: 1.9371, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1885,9 +1886,9 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
-  autoRandomSeed: 1
+  autoRandomSeed: 0
   startDelay:
     serializedVersion: 2
     minMaxState: 0
@@ -1941,7 +1942,7 @@ ParticleSystem:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  moveWithTransform: 0
+  moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
   randomSeed: 0
@@ -6617,7 +6618,7 @@ Transform:
   m_GameObject: {fileID: 1069745055}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.7649, z: 23.530663}
+  m_LocalPosition: {x: 0, y: 1.7649, z: 0}
   m_LocalScale: {x: 1, y: 8.02856, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6837,6 +6838,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fltLoadDelay: 0.5
+  crashEffect: {fileID: 987476351}
 --- !u!1 &1346791645
 GameObject:
   m_ObjectHideFlags: 0
@@ -6911,7 +6913,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 100
   m_RenderMode: 0
   m_MeshDistribution: 0
   m_SortMode: 0
@@ -6959,7 +6961,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
